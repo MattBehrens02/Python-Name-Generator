@@ -21,7 +21,7 @@ def Create_Name():
     
 root = tk.Tk()
 root.title("Random Name Generator")
-root.geometry("800x600")
+root.geometry("512x128")
 
 input_label = tk.Label(root, text="Enter in a key for a name using [c]onsonant or [v]owels")
 input_label.pack(pady=5)
